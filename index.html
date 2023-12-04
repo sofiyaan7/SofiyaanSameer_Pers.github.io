@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My potfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;700&family=Roboto&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .circle{
+            margin-left: 40px;
+        }
+        .left{
+            /* border: solid black; */
+        margin-left: 10px;    
+        font-size: xx-large;
+        font-weight: 580;
+        width: 500px;
+        /* font-family: cursive; */
+        }
+        .mid{
+            /* border: solid black; */
+            margin-left: 10px;
+            width: 500px;
+            font-size: large;
+            
+        }
+        body{
+          background-image: url('https://img.freepik.com/premium-vector/white-technology-background_23-2148399724.jpg');
+            background-color:rgb(240, 240, 246);
+            color:black;
+        }
+        nav{
+            margin-top: 10px;
+            display: flex;
+            /* justify-content: space-around; */
+             align-items: center;
+             height: 80px;
+             /* background-color: rgb(5, 5, 47); */
+        }
+        nav ul{
+          color: transparent;
+
+text-shadow: 0 0 8px #316472;
+
+            display: flex;
+            justify-content: center;
+            margin-right: 50px;
+            margin-left: 700px;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+            font-size: large;
+        }
+        nav ul li a{
+          text-decoration: none;
+          color: black;
+        }
+        .blue{
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border: solid -10px skyblue;
+         }
+         .blue2{
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 200px;
+            border:solid -10px skyblue;
+         }
+         img{
+            border-radius:50%;
+         }
+         .image{
+            margin-top: 50px;
+            margin-left: 300px;
+         }
+          .nav2{
+            padding-top:200px;
+          }
+          .name{
+            font-size: 50px;
+            margin-left: 60px;
+            font-weight: 600px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+          .about1{
+            position: relative;
+            font-size: 25px;
+            margin-left: 800px;
+            margin-top:10px;
+            font-weight:900;
+          }
+          .about{
+            width: 400px;
+            position: relative;
+            font-size: 20px;
+            margin-left: 800px;
+            margin-top:10px;
+            font-weight:500;
+            font-family: cursive;
+          }
+          .container1{
+            box-shadow: 5px 5px 5px;
+            border: rgb(179, 226, 103);;
+            display: flex;
+            border-radius: 50%;
+            justify-content:space-around;
+            margin-left: 700px;
+            margin-top: 100px;
+            width: 120px;
+            height: 120px;
+            background-color:rgb(179, 226, 103);
+            /* border: solid 1px  black; */
+          }
+          .container11 :hover{
+            font-family: cursive;
+          }
+          .container22 :hover{
+            font-family: cursive;
+          }
+          .container33 :hover{
+            font-family: cursive;
+          }
+          .container44 :hover{
+            font-family: cursive;
+          }
+          .container11{
+            font-weight: 600;
+            font-size: 22px;
+            margin-left: -105px;
+            margin-top: 100px;
+          }
+          .container2{
+            display: flex;
+            border-radius: 50%;
+            justify-content:space-around;
+            margin-left: 80px;
+            margin-top: 100px;
+            width: 120px;
+            height: 120px;
+            background-color:orange;
+            box-shadow: 5px 5px 5px;
+          }
+          .container22{
+            font-weight: 600;
+            font-size: 22px;
+            margin-left: -86px;
+            margin-top: 100px;
+          }
+          .container3{
+            display: flex;
+            border-radius: 50%;
+            justify-content:space-around;
+            margin-left: 80px;
+            margin-top: 100px;
+            width: 120px;
+            height: 120px;
+            background-color: skyblue;
+            box-shadow: 5px 5px 5px;
+          }
+          .container33{
+            font-weight: 600;
+            font-size: 22px;
+            margin-left: -95px;
+            margin-top: 100px;
+          }
+          .container4{
+            display: flex;
+            border-radius: 50%;
+            justify-content:space-around;
+            margin-left: 80px;
+            margin-top: 100px;
+            width: 120px;
+            height: 120px;
+            background-color:violet;
+            box-shadow: 5px 5px 5px;
+          }
+          .container44{
+            font-weight: 600;
+            font-size: 22px;
+            margin-left: -119px;
+            margin-top: 100px;
+          }
+          .end{
+            margin-top: 50px;
+          }
+          #email{
+            margin-left:200px ;
+          }
+          #contact{
+            margin-left: 300px;
+          }
+          #insta{
+            margin-left: 300px;
+          }
+          #address{
+            margin-left: 350px;
+          }
+          .navend2{
+            font-size: large;
+            font-weight: 500;
+            font-family: cursive;
+          }
+          .email2{
+            margin-left:150px ;
+            margin-top: -80px;
+          }
+          .contact2{
+            margin-left: 180px;
+            margin-top: -80px;
+          }
+          .insta2{
+            margin-left: 200px;
+            margin-top: -80px;
+          }
+          .address2{
+            margin-left: 300px;
+            margin-top: -80px;
+          }
+          .navbox a{
+            text-decoration: none;
+            color: black;
+          }
+           .navend img:hover {
+            -webkit-transform: scaleX(-1);
+              transform: scaleX(-1);
+             }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="circle"><img src="https://png.pngitem.com/pimgs/s/210-2102903_file-blue-svg-wikimedia-light-blue-circle-hd.png" width="30px" height="30px" alt="sofiyaan"></div>
+            <div class="left">Sofiyaan Sameer</div>
+            <div class="mid"> <u>Student At IIT Kanpur</u></div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr class="blue">
+   <nav class="nav2">
+    
+    <div class="image"><img src="me.jpg" idth="400px" height="400px"  alt="sofiyaan"></div>
+    <div class="name">SOFIYAAN SAMEER</div>
+   </nav>
+   <div class="about1"> A Bit About Me</div>
+   <div class="about">I am an undergraduate student at The Indian Institute of Technology Kanpur department Material Science and Engineering. Currently I am in first year and  exploring the world of software development. </div>
+   <nav class="navbox">
+    <div class="container1"></div>
+    <div class="container11"><a href="education.html">Education</a></div>
+    <div class="container2"></div>
+    <div class="container22"><a href="skills.html">Skills</a></div>
+    <div class="container3"></div>
+    <div class="container33"><a href="project.html">Projects</a></div>
+    <div class="container4"></div>
+    <div class="container44"><a href="involv.html">involvments</a></div>
+   </nav>
+   <hr class="blue2">
+   <nav class="navend">
+    <div id="email"><img src="https://www.shutterstock.com/image-illustration/email-icon-isolated-on-special-260nw-1017489229.jpg"  height="60px"  alt="Email"></div>
+    <div id="contact"><img src="https://thumbs.dreamstime.com/z/phone-icon-glass-shiny-blue-round-button-isolated-design-vector-illustration-app-interface-abstract-modern-web-162448364.jpg"  height="60px"  alt="phone"></div>
+    <div id="insta"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png" height="60px"  alt="address"></div>
+    <div id="address"><img src="https://cdn-icons-png.flaticon.com/512/6948/6948631.png" height="60px"  alt="address"></div>
+   </nav>
+   <nav class="navend2">
+    <div class="email2">sofiyaans22@iitk.ac.in</div>
+    <div class="contact2">+91 9589373397</div>
+    <div class="insta2">sofiyaansameer7</div>
+    <div class="address2">Hall:13 IITK</div>
+   </nav>
+
+
+
+
+
+
+
+
+
+
+   <hr class="end">
+
+</body>
+</html>
